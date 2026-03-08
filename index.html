@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giuseppe Siccardi — Consulente Informatico Freelance | Siti Web, Reti, Domotica</title>
+    <meta name="description"
+        content="Giuseppe Siccardi, consulente informatico freelance. Realizzo siti web, reti, impianti domotici e automazioni per privati, professionisti e piccole imprese.">
+    <meta name="keywords"
+        content="consulente informatico, realizzazione siti web, automazione processi aziendali, reti informatiche aziendali, domotica casa, supporto informatico per aziende, sviluppo automazioni software, assistenza informatica">
+    <meta name="author" content="Giuseppe Siccardi">
+    <link rel="canonical" href="https://www.giuseppesiccardi.it/">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.giuseppesiccardi.it/">
+    <meta property="og:title" content="Giuseppe Siccardi — Consulente Informatico Freelance">
+    <meta property="og:description"
+        content="Siti web, reti, domotica e automazioni su misura per privati, professionisti e piccole imprese. Prima consulenza gratuita.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Giuseppe Siccardi — Consulente Informatico Freelance">
+    <meta name="twitter:description"
+        content="Siti web, reti, domotica e automazioni su misura. Prima consulenza gratuita.">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='55' font-family='Arial, sans-serif' font-weight='bold' font-size='65' fill='%232563eb' text-anchor='middle' dominant-baseline='central'>GS</text></svg>">
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Giuseppe Siccardi — Consulente Informatico Freelance",
+      "description": "Consulente informatico freelance specializzato in realizzazione siti web, automazione processi aziendali, reti informatiche e domotica per privati, professionisti, artigiani e piccole aziende.",
+      "url": "https://www.giuseppesiccardi.it",
+      "telephone": "+39-345-098-0097",
+      "email": "siccardi.giuseppe [at] gmail.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/giuseppe-siccardi-294446117/"
+      ],
+      "serviceType": ["Realizzazione Siti Web", "Automazione Processi Aziendali", "Reti Informatiche", "Domotica", "Supporto Informatico"],
+      "areaServed": "IT",
+      "priceRange": "€€"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo logo-text">GS</a>
+
+            <!-- Mobile Contacts (Top Bar) -->
+            <div class="mobile-nav-contacts">
+                <a data-contact="email" class="mobile-nav-icon gmail" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                        </path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+                <a data-contact="phone" class="mobile-nav-icon phone" aria-label="Telefono">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://wa.me/393450980097" target="_blank" rel="noopener noreferrer"
+                    class="mobile-nav-icon whatsapp" aria-label="WhatsApp">
+                    <svg viewBox="0 0 448 512" fill="currentColor">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 414.6c-33.1 0-65.5-8.9-94-25.8l-6.7-4-69.8 18.3L72 334l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.9 83-184.8 184.8-184.8 56.4 0 109.1 21.9 148.8 61.8 39.8 39.8 61.8 92.4 61.8 148.8 0 101.9-82.9 184.8-184.8 184.8zM324.9 271c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-2.1-3.6-.2-5.5 1.6-7.3 1.6-1.6 3.7-4.2 5.5-6.5 1.9-2.3 2.5-3.9 3.7-6.5 1.2-2.6.6-4.9-.3-6.3-1-1.4-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                </a>
+            </div>
+
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"
+                id="mobile-nav-toggle">
+                <span class="sr-only">Menu</span>
+                <div class="hamburger"></div>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="#about">Chi Sono</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#workflow">Metodo</a></li>
+                <li><a href="#success-stories">Storie di Successo</a></li>
+                <li><a href="#why-me">Perché scegliere me</a></li>
+                <li><a href="#contact" class="btn-sm">Contattami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1️⃣ Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge fade-up">Disponibile per nuovi progetti</span>
+                <h1>Soluzioni informatiche per <span class="highlight">privati</span> e piccole <span
+                        class="highlight">imprese</span>.</h1>
+                <!--<h1 class="fade-up stagger-1">Trasformo processi manuali in sistemi digitali <span
+                        class="highlight">automatizzati.</span></h1>-->
+                <h2>Siti web, reti, domotica e automazioni progettate su misura.</h2>
+                <!--<h2 class="fade-up stagger-2">Sistemi digitali intelligenti per professionisti che vogliono scalare.
+                </h2>-->
+                <p class="hero-description">
+                    Hai bisogno di un sito web professionale, di una rete che funzioni o di automatizzare
+                    un lavoro ripetitivo? Ti aiuto a trovare la soluzione giusta, senza complicazioni.
+                </p>
+                <!--<p class="hero-description fade-up stagger-3">Siti web, automazioni aziendali e infrastrutture IT
+                    progettate per far crescere il tuo business e ridurre le inefficienze operative.</p>-->
+                <div class="hero-actions fade-up stagger-4">
+                    <a href="#contact" class="btn btn-primary">Contattami senza impegno</a>
+                    <a href="#target" class="btn btn-secondary">A chi mi rivolgo</a>
+                    <a href="#services" class="btn btn-secondary">Scopri cosa posso fare per te</a>
+                </div>
+            </div>
+            <!-- Optional tech visual element -->
+            <div class="hero-visual fade-in">
+                <div class="tech-grid"></div>
+            </div>
+
+            <!-- Scroll Indicator Arrows -->
+            <a href="#seo-intro" class="scroll-indicator" aria-label="Scorri verso il basso">
+                <svg viewBox="0 0 24 24" width="100" height="100" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="7 13 12 18 17 13"></polyline>
+                    <polyline points="7 6 12 11 17 6"></polyline>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- SEO Introduction Paragraph & Problemi che risolvo -->
+    <section class="seo-intro section" id="seo-intro" style="padding-top: 3rem; padding-bottom: 2rem;">
+        <div class="container">
+            <p
+                style="max-width: 800px; margin: 0 auto 3rem auto; text-align: center; color: var(--text-secondary); font-size: 1.15rem; line-height: 1.7;">
+                Cerchi un consulente informatico per realizzare un sito web,
+                migliorare la tua rete aziendale o automatizzare attività ripetitive?<br><br>
+                Aiuto privati, professionisti, artigiani e piccole imprese a costruire
+                sistemi informatici semplici, affidabili e sicuri:
+                siti web professionali, reti stabili, domotica e automazioni.
+            </p>
+
+            <div class="section-header fade-up text-center" style="margin-bottom: 2rem;">
+                <h2 style="font-size: 1.8rem;">Posso aiutarti se:</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="reasons-grid fade-up stagger-1" style="max-width: 900px; margin: 0 auto;">
+                <div class="reason-item">
+                    <div class="check-icon">✔</div>
+                    <h4>vuoi creare un sito web per la tua attività</h4>
+                </div>
+                <div class="reason-item">
+                    <div class="check-icon">✔</div>
+                    <h4>la tua rete Wi-Fi è lenta o instabile</h4>
+                </div>
+                <div class="reason-item">
+                    <div class="check-icon">✔</div>
+                    <h4>perdi tempo in operazioni manuali</h4>
+                </div>
+                <div class="reason-item">
+                    <div class="check-icon">✔</div>
+                    <h4>vuoi una casa intelligente</h4>
+                </div>
+                <div class="reason-item">
+                    <div class="check-icon">✔</div>
+                    <h4>hai paura di perdere i tuoi dati</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1.5 Target Section -->
+    <section class="target-section section bg-alt" id="target">
+        <div class="container target-container text-center">
+            <h2 class="fade-up">A chi mi rivolgo</h2>
+            <div class="divider mx-auto"></div>
+
+            <div class="target-grid mt-4">
+                <div class="target-card fade-up stagger-1">
+                    <h3>🔹 Professionisti, artigiani e piccole imprese</h3>
+                    <p>Siti web per farsi trovare online, reti aziendali affidabili, automazioni per risparmiare tempo
+                        ogni giorno.</p>
+                </div>
+                <div class="target-card fade-up stagger-2">
+                    <h3>🔹 Privati</h3>
+                    <p>Casa intelligente con la domotica, reti Wi-Fi stabili, assistenza informatica e protezione dei
+                        dati personali.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2️⃣ Chi sono -->
+    <section class="about section" id="about">
+        <div class="container about-container">
+            <div class="section-header fade-up">
+                <h2>Chi sono</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content fade-up stagger-1">
+                <p class="lead-text">Sono un consulente informatico freelance. Mi occupo sia di sviluppo software
+                    che di reti e sistemi, con un unico obiettivo: risolvere problemi concreti.</p>
+                <div class="approach-box mt-4">
+                    <p><strong>Il mio approccio:</strong> capire bene cosa ti serve, spiegarti le opzioni in modo
+                        semplice
+                        e realizzare soluzioni che funzionano nel tempo. Niente complicazioni inutili.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ Servizi Offerti -->
+    <section class="services section bg-alt" id="services">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Servizi IT per privati e aziende</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="services-split fade-up">
+                <!-- Colonna Sinistra: Ads / Image -->
+                <div class="services-ad">
+                    <div class="ad-content">
+                        <h3>Tecnologia al servizio del tuo lavoro quotidiano.</h3>
+                        <p>Non vendo prodotti: costruisco soluzioni pratiche che ti fanno risparmiare tempo,
+                            ridurre i problemi e lavorare meglio ogni giorno.</p>
+                    </div>
+                    <!-- Neutrale Image (using a tech/abstract placeholder or subtle pattern) -->
+                    <div class="ad-image-wrapper">
+                        <!-- You can swap this relative path to an actual neutral tech image if you have one, or keep it styled via CSS -->
+                        <div class="ad-placeholder-bg"></div>
+                    </div>
+                </div>
+
+                <!-- Colonna Destra: Rettangoli Interattivi (Accordion) -->
+                <div class="services-accordion">
+                    <!-- Rettangolo 1 -->
+                    <div class="service-rectangle">
+                        <div class="rectangle-header">
+                            <h3>Siti Web Professionali</h3>
+                            <span class="rectangle-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="rectangle-body">
+                            <p class="service-desc">Siti web moderni e veloci per presentare la tua attività e farti
+                                trovare da nuovi clienti.
+                            </p>
+                            <ul class="service-list">
+                                <li>Siti vetrina per professionisti, artigiani e attività</li>
+                                <li>Design adatto a cellulare, tablet e PC</li>
+                                <li>Moduli di contatto e richiesta preventivo</li>
+                                <li>Ottimizzazione per i motori di ricerca</li>
+                            </ul>
+                            <p class="service-microcopy">Il tuo sito lavora per te, anche quando sei chiuso.</p>
+                        </div>
+                    </div>
+
+                    <!-- Rettangolo 2 -->
+                    <div class="service-rectangle">
+                        <div class="rectangle-header">
+                            <h3>Automazione e Script</h3>
+                            <span class="rectangle-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="rectangle-body">
+                            <p class="service-desc">Hai attività ripetitive che ti portano via tempo ogni giorno? Le
+                                automatizzo io.</p>
+                            <ul class="service-list">
+                                <li>Raccolta e organizzazione automatica di dati</li>
+                                <li>Report e resoconti generati in autonomia</li>
+                                <li>Collegamento tra programmi che non si parlano</li>
+                                <li>Eliminazione di copia-incolla e passaggi manuali</li>
+                            </ul>
+                            <p class="service-microcopy">Meno lavoro noioso, più tempo per le cose importanti.</p>
+                        </div>
+                    </div>
+
+                    <!-- Rettangolo 3 -->
+                    <div class="service-rectangle">
+                        <div class="rectangle-header">
+                            <h3>Reti e Infrastrutture</h3>
+                            <span class="rectangle-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="rectangle-body">
+                            <p class="service-desc">Reti stabili e sicure per casa e ufficio, con backup dei dati e
+                                protezione da minacce.</p>
+                            <ul class="service-list">
+                                <li>Installazione e configurazione reti Wi-Fi e cablate</li>
+                                <li>Backup automatici per non perdere mai i dati</li>
+                                <li>Protezione da virus, intrusioni e accessi non autorizzati</li>
+                                <li>Configurazione server e dispositivi di rete</li>
+                            </ul>
+                            <p class="service-microcopy">Una rete che funziona è una rete a cui non devi pensare.</p>
+                        </div>
+                    </div>
+
+                    <!-- Rettangolo 4 -->
+                    <div class="service-rectangle">
+                        <div class="rectangle-header">
+                            <h3>Domotica e Casa Intelligente</h3>
+                            <span class="rectangle-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="rectangle-body">
+                            <p class="service-desc">Controllo luci, temperatura, allarmi e consumi da un'unica app, in
+                                modo sicuro e affidabile.</p>
+                            <ul class="service-list">
+                                <li>Gestione luci, tapparelle e climatizzazione automatica</li>
+                                <li>Allarmi e sensori collegati al telefono</li>
+                                <li>Monitoraggio consumi elettrici in tempo reale</li>
+                                <li>Rete sicura che protegge i tuoi dispositivi</li>
+                            </ul>
+                            <p class="service-microcopy">Una casa più comoda, sicura e con bollette più basse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRICING / CONSULENZA -->
+            <div class="pricing-section fade-up">
+                <div class="pricing-header">
+                    <h2>Soluzioni e Consulenze</h2>
+                    <p>Scegli il tipo di intervento più adatto alla tua situazione.</p>
+                </div>
+
+                <div class="pricing-embla">
+                    <div class="pricing-embla__viewport">
+                        <div class="pricing-grid pricing-embla__container">
+                            <!-- Pricing Card 1 -->
+                            <div class="pricing-card pricing-embla__slide">
+                                <h3>Intervento Singolo</h3>
+                                <!--<div class="pricing-price">Da 150€</div>-->
+                                <div class="pricing-subdesc">Per risolvere un problema specifico</div>
+                                <ul>
+                                    <li>Riparazione PC, rete o software</li>
+                                    <li>Configurazione dispositivi o programmi</li>
+                                    <li>Recupero dati o pulizia sistema</li>
+                                    <li>Intervento urgente su guasti</li>
+                                </ul>
+                                <div class="pricing-microcopy">Problema risolto, in tempi rapidi.</div>
+                            </div>
+
+                            <!-- Pricing Card 2 (Highlight) -->
+                            <div class="pricing-card featured pricing-embla__slide">
+                                <div class="badge">Più scelto</div>
+                                <h3>Prima Consulenza</h3>
+                                <!--<div class="pricing-price">Gratuita <span class="pricing-strike">(Valore 120€)</span>
+                                </div>-->
+                                <div class="pricing-subdesc">Chiamata di 30 minuti</div>
+                                <ul>
+                                    <li>Mi racconti il tuo problema o la tua idea</li>
+                                    <li>Capiamo insieme cosa ti serve davvero</li>
+                                    <li>Ti propongo le soluzioni possibili</li>
+                                    <li>Senza impegno, senza vincoli</li>
+                                </ul>
+                                <div class="pricing-microcopy">Il modo più semplice per iniziare.</div>
+                            </div>
+
+                            <!-- Pricing Card 3 -->
+                            <div class="pricing-card pricing-embla__slide">
+                                <h3>Progetto Completo</h3>
+                                <!--<div class="pricing-price">Da 1.500€ <span class="pricing-custom">-
+                                        personalizzato</span></div>-->
+                                <div class="pricing-subdesc">Siti web, reti, domotica o automazioni</div>
+                                <ul>
+                                    <li>Studio della tua situazione e delle tue esigenze</li>
+                                    <li>Realizzazione completa della soluzione</li>
+                                    <li>Formazione per utilizzare il sistema in autonomia</li>
+                                    <li>Assistenza tecnica anche dopo la consegna</li>
+                                </ul>
+                                <div class="pricing-microcopy">Un progetto su misura, dall'inizio al supporto.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Navigation Buttons -->
+                    <div class="pricing-embla__buttons">
+                        <button class="pricing-btn pricing-prev" aria-label="Precedente">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <button class="pricing-btn pricing-next" aria-label="Successivo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CTA Finale -->
+                <div class="services-cta fade-up">
+                    <p>Non sai da dove iniziare? Nessun problema.</p>
+                    <p>Scrivimi o chiamami: ti aiuto a capire cosa ti serve davvero.</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">Contattami ora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 5️⃣ Modalità di lavoro -->
+    <section class="workflow section bg-alt" id="workflow">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Come lavoro</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item accordion-card active fade-up stagger-1">
+                    <div class="accordion-header timeline-header">
+                        <div class="timeline-number">1</div>
+                        <h4>Analisi</h4>
+                    </div>
+                    <div class="accordion-content" style="max-height: 500px;">
+                        <div class="accordion-inner">
+                            <p>Ascolto la tua situazione, capisco cosa ti serve e individuo il modo migliore
+                                per risolvere il problema.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item accordion-card fade-up stagger-2">
+                    <div class="accordion-header timeline-header">
+                        <div class="timeline-number">2</div>
+                        <h4>Proposta</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Ti presento la soluzione in modo chiaro: cosa farò, quanto costerà e
+                                in quanto tempo sarà pronto. Nessuna sorpresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item accordion-card fade-up stagger-3">
+                    <div class="accordion-header timeline-header">
+                        <div class="timeline-number">3</div>
+                        <h4>Realizzazione</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Mi occupo di tutto: costruisco, installo, configuro e verifico che
+                                tutto funzioni correttamente prima di consegnarti il lavoro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item accordion-card fade-up stagger-4">
+                    <div class="accordion-header timeline-header">
+                        <div class="timeline-number">4</div>
+                        <h4>Supporto</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Non ti lascio solo dopo la consegna. Resto disponibile per assistenza,
+                                aggiornamenti e qualsiasi dubbio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5.5️⃣ Storie di Successo -->
+    <section class="success-stories section" id="success-stories">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Storie di successo</h2>
+                <p class="section-subtitle">Problemi reali risolti per privati e piccole imprese.</p>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Embla Carousel (Scale Effect) -->
+            <div class="embla fade-up stagger-1">
+                <div class="embla__viewport">
+                    <div class="embla__container">
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-ent-1">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Splunk Dashboard">
+                                <div class="slide-overlay">
+                                    <h3>Automazione e Analisi Dati</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-ent-2">
+                                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Sicurezza Migrazione">
+                                <div class="slide-overlay">
+                                    <h3>Migrazione Dati Sicura</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-ent-3">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Sistemi CRM">
+                                <div class="slide-overlay">
+                                    <h3>Ottimizzazione Sistemi CRM</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-ent-4">
+                                <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Monitoring Servers">
+                                <div class="slide-overlay">
+                                    <h3>Scripting e Monitoring Proattivo</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-inn-1">
+                                <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Automazione Lead Web">
+                                <div class="slide-overlay">
+                                    <h3>Automazione Lead per Siti Web</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-inn-2">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Processi PMI">
+                                <div class="slide-overlay">
+                                    <h3>Automazione Processi per PMI</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="slide-card open-modal-btn" data-modal="modal-inn-3">
+                                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&h=800&q=80"
+                                    alt="Networking Smart">
+                                <div class="slide-overlay">
+                                    <h3>Domotica Proattiva Integrata</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="embla__buttons">
+                    <button class="embla__button embla__button--prev" type="button" aria-label="Precedente">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                        </svg>
+                    </button>
+                    <button class="embla__button embla__button--next" type="button" aria-label="Successivo">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <p class="mt-4 fade-up stagger-2" style="text-align:center; color: var(--text-secondary);">
+                <em>Nota: I nomi esatti dei clienti finali sono stati resi anonimi per accordi di riservatezza.</em>
+            </p>
+        </div>
+
+        <!-- HTML Modali -->
+        <div class="modal" id="modal-ent-1">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Automazione e Analisi Dati</h3>
+                <p><strong>Problema:</strong> L'azienda perdeva giorni interi a raccogliere dati a mano da programmi
+                    diversi.
+                    I report arrivavano sempre in ritardo.</p>
+                <p><strong>Soluzione:</strong> Ho creato un sistema che raccoglie i dati automaticamente e genera
+                    i report da solo, ogni giorno.</p>
+                <p><strong>Risultato:</strong> Nessun lavoro manuale, report sempre pronti.
+                    L'azienda ora prende decisioni più velocemente.</p>
+                <p class="skills-highlight">👉 Impatto: 80% di tempo risparmiato nella raccolta dati
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-ent-2">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Migrazione Dati Sicura</h3>
+                <p><strong>Problema:</strong> Il cliente doveva spostare migliaia di dati importanti su un nuovo
+                    sistema,
+                    con il rischio di perdere informazioni.</p>
+                <p><strong>Soluzione:</strong> Ho costruito un processo controllato passo per passo,
+                    verificando che ogni dato venisse trasferito correttamente.</p>
+                <p><strong>Risultato:</strong> Migrazione completata in anticipo. Zero dati persi,
+                    zero interruzioni del lavoro.</p>
+                <p class="skills-highlight">👉 Impatto: Nessun dato perso, nessuna interruzione
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-ent-3">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Ripristino Gestionale Vendite</h3>
+                <p><strong>Problema:</strong> Il programma usato dai venditori si bloccava spesso,
+                    causando rallentamenti e frustrazione ogni giorno.</p>
+                <p><strong>Soluzione:</strong> Ho trovato la causa dei blocchi e risolto il problema
+                    alla radice, velocizzando anche il funzionamento generale.</p>
+                <p><strong>Risultato:</strong> Niente più blocchi. I venditori hanno ripreso a lavorare
+                    senza interruzioni.</p>
+                <p class="skills-highlight">👉 Impatto: Problemi quotidiani eliminati, vendite ripristinate
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-ent-4">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Aggiornamenti Automatizzati</h3>
+                <p><strong>Problema:</strong> Ogni aggiornamento dei sistemi richiedeva ore di lavoro manuale
+                    e spesso causava errori e blocchi imprevisti.</p>
+                <p><strong>Soluzione:</strong> Ho automatizzato l'intero processo di aggiornamento
+                    con controlli automatici che rilevano i problemi prima che diventino gravi.</p>
+                <p><strong>Risultato:</strong> Errori dimezzati fin dal primo giorno. Gli aggiornamenti
+                    ora avvengono in modo rapido e senza imprevisti.</p>
+                <p class="skills-highlight">👉 Impatto: Dimezzati i guasti, aggiornamenti senza interruzioni
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-inn-1">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Sito Web che Genera Contatti</h3>
+                <p><strong>Problema:</strong> Il professionista riceveva richieste via email, telefono e social, senza
+                    un sistema
+                    per organizzarle. Molti potenziali clienti si perdevano per strada.
+                </p>
+                <p><strong>Soluzione:</strong> Ho realizzato un sito web con un modulo di contatto
+                    che organizza automaticamente le richieste e avvisa il professionista in tempo reale.</p>
+                <p><strong>Risultato:</strong> Nessuna richiesta persa. Il professionista risponde
+                    più velocemente e converte più contatti in clienti.</p>
+                <p class="skills-highlight">👉 Impatto: Più richieste gestite, meno clienti persi
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-inn-2">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Automazione Report per Piccola Impresa</h3>
+                <p><strong>Problema:</strong> Un dipendente passava ore ogni settimana a copiare dati
+                    da un programma all'altro per preparare i report mensili.
+                </p>
+                <p><strong>Soluzione:</strong> Ho creato un sistema automatico che raccoglie i dati
+                    dai diversi programmi e genera i report da solo.</p>
+                <p><strong>Risultato:</strong> Il dipendente ora si dedica ad attività più utili.
+                    I report arrivano pronti ogni mattina, senza errori.</p>
+                <p class="skills-highlight">👉 Impatto: Ore di lavoro manuale eliminate, report sempre aggiornati
+                </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-inn-3">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <h3>Domotica Professionale per Casa e Ufficio</h3>
+                <p><strong>Problema:</strong> Il cliente aveva diversi dispositivi smart che non funzionavano
+                    bene insieme e lasciavano la rete vulnerabile ad attacchi esterni.</p>
+                <p><strong>Soluzione:</strong> Ho sostituito i dispositivi disordinati con un sistema unico
+                    e sicuro che gestisce luci, temperatura, allarmi e consumi da un'unica app.</p>
+                <p><strong>Risultato:</strong> Tutto sotto controllo da telefono, bollette più basse
+                    e rete completamente protetta.</p>
+                <p class="skills-highlight">👉 Impatto: Risparmio energetico, sicurezza e comfort migliorati
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 4️⃣ Perché scegliere me -->
+    <section class="why-me section" id="why-me">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Perché scegliere me</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="reasons-grid">
+                <div class="accordion-card fade-up stagger-1">
+                    <div class="accordion-header">
+                        <div class="check-icon">✔</div>
+                        <h4>Soluzioni pratiche, non teoria</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Non mi limito alla parte tecnica: capisco la tua situazione e ti propongo
+                                la soluzione più semplice ed efficace per risolvere il problema.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-card fade-up stagger-2">
+                    <div class="accordion-header">
+                        <div class="check-icon">✔</div>
+                        <h4>Ti spiego tutto in modo semplice</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Niente parole complicate. Ti spiego cosa faccio e perché,
+                                in modo che tu possa decidere con tranquillità.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-card fade-up stagger-3">
+                    <div class="accordion-header">
+                        <div class="check-icon">✔</div>
+                        <h4>Su misura per te</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Ogni situazione è diversa. Non uso soluzioni preconfezionate:
+                                quello che costruisco è pensato per le tue esigenze reali.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-card fade-up stagger-4">
+                    <div class="accordion-header">
+                        <div class="check-icon">✔</div>
+                        <h4>Parli direttamente con me</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Niente centralini o ticket. Mi contatti direttamente e ti rispondo
+                                in tempi brevi. Se c'è un'urgenza, intervengo subito.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ Contatti -->
+    <section class="contact section" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info fade-up">
+                <h2>Raccontami il tuo problema.</h2>
+                <p>Descrivimi cosa ti serve o qual è il problema che vuoi risolvere.
+                    Entro 24 ore riceverai una risposta con le prime possibili soluzioni.</p>
+                <p><strong>La prima consulenza è gratuita e senza impegno.</strong></p>
+                <p class="micro-copy">⏳ Rispondo sempre entro 24 ore.</p>
+
+                <div class="direct-contacts mt-4">
+                    <a href="https://wa.me/393450980097" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448 512"
+                            fill="#25D366">
+                            <path
+                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 414.6c-33.1 0-65.5-8.9-94-25.8l-6.7-4-69.8 18.3L72 334l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.9 83-184.8 184.8-184.8 56.4 0 109.1 21.9 148.8 61.8 39.8 39.8 61.8 92.4 61.8 148.8 0 101.9-82.9 184.8-184.8 184.8zM324.9 271c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-2.1-3.6-.2-5.5 1.6-7.3 1.6-1.6 3.7-4.2 5.5-6.5 1.9-2.3 2.5-3.9 3.7-6.5 1.2-2.6.6-4.9-.3-6.3-1-1.4-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                    <a data-contact="email" class="contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                            <path
+                                d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                                fill="none" />
+                            <path
+                                d="M12 16.642L1.527 8.783A2.128 2.128 0 0 1 0 7.636V19.36c0 .904.732 1.636 1.636 1.636h3.819V11.73l6.545 4.912z"
+                                fill="#34a853" />
+                            <path
+                                d="M12 16.642l10.473-7.859c.535-.401.996-1.049.996-1.745v11.725c0 .906-.732 1.638-1.636 1.638h-3.819V11.73l-6.014 4.912z"
+                                fill="#4285f4" />
+                            <path d="M12 9.548L3.927 3.493C2.309 2.28 0 3.434 0 5.457v2.179L12 16.642" fill="#ea4335" />
+                            <path d="M12 9.548l8.073-6.055c1.618-1.214 3.927-.06 3.927 1.964v2.179L12 16.642"
+                                fill="#fbbc04" />
+                        </svg>
+                        Invia Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/giuseppe-siccardi-294446117/" target="_blank"
+                        rel="noopener noreferrer" class="contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448 512"
+                            fill="#0A66C2">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper fade-up stagger-2">
+                <form class="contact-form" action="https://formspree.io/f/mjgakwve" method="POST">
+                    <!-- Configurazione Formspree -->
+                    <input type="hidden" name="_subject" value="Nuova richiesta dal sito web!">
+                    <input type="hidden" name="_language" value="it">
+                    <input type="hidden" name="_next" value="#contact">
+
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required placeholder="Il tuo nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required placeholder="La tua email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Come posso aiutarti?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Invia richiesta</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Giuseppe Siccardi - Consulente Informatico Freelance.</p>
+                <p class="footer-links">
+                    <a href="privacy-policy.html">Privacy Policy</a> | <a href="cookie-policy.html">Cookie Policy</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contacts">
+        <a href="mailto:siccardi.giuseppe@gmail.com" class="float-btn float-gmail" aria-label="Invia Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+        </a>
+        <a data-contact="phone" class="float-btn float-phone" aria-label="Chiamami">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+            </svg>
+        </a>
+        <a href="https://wa.me/393450980097" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp"
+            aria-label="Contattami su WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 448 512" fill="white">
+                <path
+                    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 414.6c-33.1 0-65.5-8.9-94-25.8l-6.7-4-69.8 18.3L72 334l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.9 83-184.8 184.8-184.8 56.4 0 109.1 21.9 148.8 61.8 39.8 39.8 61.8 92.4 61.8 148.8 0 101.9-82.9 184.8-184.8 184.8zM324.9 271c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-2.1-3.6-.2-5.5 1.6-7.3 1.6-1.6 3.7-4.2 5.5-6.5 1.9-2.3 2.5-3.9 3.7-6.5 1.2-2.6.6-4.9-.3-6.3-1-1.4-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Torna in cima">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+
+    <!-- Embla Carousel JS -->
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+    <script src="script.js"></script>
+    <!-- Obfuscated contact links - assembled at runtime to prevent scraping -->
+    <script>
+        (function () {
+            var e = 'siccardi.giuseppe' + '@' + 'gmail.com';
+            var p = '+39' + '345' + '0980097';
+            var wa = 'https://wa.me/' + '393450980097';
+            document.querySelectorAll('[data-contact="email"]').forEach(function (el) {
+                el.href = 'mailto:' + e;
+            });
+            document.querySelectorAll('[data-contact="phone"]').forEach(function (el) {
+                el.href = 'tel:' + p;
+            });
+            document.querySelectorAll('[data-contact="whatsapp"]').forEach(function (el) {
+                el.href = wa;
+            });
+        })();
+    </script>
+</body>
+
+</html>
