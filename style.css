@@ -708,7 +708,7 @@ p {
 }
 
 /* Colonna Sinistra (Ads) */
-.services-ad {
+.services-info {
     background: linear-gradient(135deg, var(--color-primary), #1e40af);
     color: white;
     padding: 3rem;
@@ -718,12 +718,12 @@ p {
     overflow: hidden;
 }
 
-.services-ad .ad-content {
+.services-info .info-content {
     position: relative;
     z-index: 2;
 }
 
-.services-ad h3 {
+.services-info h3 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -731,14 +731,14 @@ p {
     color: white;
 }
 
-.services-ad p {
+.services-info p {
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
 }
 
 /* Background Pattern/Immagine Placeholder per Ads */
-.ad-image-wrapper {
+.info-image-wrapper {
     position: absolute;
     top: 0;
     right: 0;
