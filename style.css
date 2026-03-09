@@ -1683,7 +1683,11 @@ p {
     }
 
     .scroll-indicator {
+        position: relative;
+        bottom: auto;
+        left: auto;
         margin-top: 3rem;
+        align-self: center;
         animation: bounceArrowsMobile 2s infinite ease-in-out;
     }
 
